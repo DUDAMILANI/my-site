@@ -1,0 +1,35 @@
+img { 
+  border-radius: 75px 75px 75px 75px; //arredondar as pontas
+  border: solid 1px hotpink; //mostrar a borda e a cor
+  margin-top: 20px; //margem de distancia do topo
+}
+h2 {
+  font-size: 20px; //fonte do titulo
+}
+a {
+  display: block;
+  text-align: center; /centralizar
+  margin: 10px;/margem de distancia
+  color: rgb(53, 38, 148); /cor do texto
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 75px; //arredondar a borda
+  padding: 10px;
+  transition: transform 0.5s ease; //aumentar o botão quando a pessoa for clicar
+}
+a:hover{ 
+  color: darkmagenta;
+  background-color: hotpink;
+  transform: scale(1.05);
+}
+ body {
+  background: linear-gradient(to right, pink, hotpink); //cor do funco
+  font-family:'Trebuchet MS'; /fonte
+  color:black; /cor do texto
+  text-align: center; / centralizar
+}
+@keyframes bounce { //você pode especificar diferentes transformações ou movimentos ocorrendo em vários pontos da animação.
+  40%{transform: translateY(-10px);}
+  60%{transform: translateY(-5px);}
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0); }
+}
